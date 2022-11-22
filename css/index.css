@@ -1,0 +1,89 @@
+@import url('https://fonts.googleappis.com/css2?family=Inter:wght@300;600&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter' sans-serif;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 150px;
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 550px;
+}
+.login-header{
+    margin-bottom: 50px;
+    
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+}
+.login-form{
+    width: 450px;
+
+}
+.form-item label:not(.checkboxLabel){
+    display: inline-block;
+    background-color: white;
+}
+
+#password{
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 100px;
+}
+#email{
+    border: 1px solid black;
+    height: 55px;
+    padding: 0 2rem;
+    outline: none;
+    width: 100%;
+   
+    font-size: 18px;
+    border-radius: 100px;
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+button{
+    padding: 1rem;
+    border-radius: 100px;
+    cursor: pointer;
+    height:55px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid black;
+    margin-left: 90px;
+}
+.checkbox{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    gap: 15px;
+    align-items: center;
+}

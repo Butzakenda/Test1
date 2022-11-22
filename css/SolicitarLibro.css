@@ -1,0 +1,54 @@
+.main{
+    display: block;
+}
+.CrearLibro{
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: 70% 30%;
+}
+.user{
+    margin-left: auto;
+
+}
+.userPicture{
+    max-width: 50px;
+    max-height: 50px;
+}
+.MainUp{
+    margin-left: 15px;
+
+    font-size: 34px;
+}
+.MainDown{
+    display: grid;
+
+    /* grid-template-columns: auto auto; */
+}
+.UserNick{
+    width: 250px;
+    padding: 10px;
+}
+.logout{
+    width: 150px;
+    padding: 10px;
+}
+.BuscarLibro{
+    margin-left: 15px;
+    display: flex;
+    font-size: 20px;
+}
+
+.busqueda{
+    font-size: 30px;
+}
+.contenidoBuscarLibro{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.NoBorder{
+    text-align: center;
+    border: none;
+    
+}
+

@@ -1,0 +1,10 @@
+header{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    border: 2px solid black;
+    background-color: gray;
+    padding-bottom: 40px;
+    padding: 1em 0;
+}

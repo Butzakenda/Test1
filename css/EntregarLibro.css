@@ -1,0 +1,30 @@
+.user{
+    margin-left: auto;
+
+}
+.userPicture{
+    max-width: 50px;
+    max-height: 50px;
+}
+.EntregarLibro{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.MainUp{
+    font-size: 34px;
+}
+.UserNick{
+    max-width: 250px;
+    min-width: auto;
+}
+.logout{
+    width: 150px;
+    
+}
+select{
+    width: 250px;
+    padding: 10px;
+}
+.busqueda{
+    font-size: 25px;
+}

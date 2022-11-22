@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/SolicitarLibro.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+<body>
+    <header>
+        
+        SIIB - Sistema de Información interbibliotecario
+   
+    </header>
+    <div class="container">
+        <nav>
+            <a href="CrearLibro.html">Crear Libro</a> <a href="EntregarLibro.html">Entregar Libro</a> <a href="#">Solicitar Libro</a>
+        </nav>
+        <div class="main">
+            <div class="MainUp">
+                <div class="CrearLibro" >
+                    <h2 >
+                        Solicitar Libro(s)
+                    </h2>
+                    <div class="user">
+                        <form  action="">
+                            <table >
+                                <tr>
+                                    <td>
+                                        <img class="userPicture" src="../img/user.png" alt="">
+                                    </td>
+                                    <td>
+                                        <select class="UserNick" name="" id="">
+                                            <option value="">Cesar Rodriguez</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+            
+                                    </td>
+                                    <td>
+                                        <a href="../index.html">
+                                        <input class="logout" type="button" value="Salir">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="MainDown">
+                <div class="BuscarLibro" style="display: flex; justify-content: center; justify-items: center; flex-direction: row;">
+                    <tr >
+                        <td >
+                            <label for="">Buscar libro por</label>
+                            <label for=""> 
+                            <input type="radio" class="s" id="ss" name="Titulo">Título</label>
+                            <label for="">
+                            <input type="radio" class="s" id="ss" name="Titulo">Autor</label>
+                            <label for="">
+                            <input type="radio" class="s" id="ss" name="Titulo">Área</label>         
+                            <input style="width: 300px;" type="search">
+                        </td>
+                    </tr>
+        
+                </div>
+                <div class="contenidoBuscarLibro">
+                    <div>
+                        <form action="">
+                            <table style=" text-align: center;" border="2px">
+                                <tr  > <!-- Tipo de item -->
+                                    <td>
+                                        <label for="">Título</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Editorial</label>
+                                    </td>
+                                    <td>
+                                        <label for="">ISBN</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Autor(es)</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Núm. Páginas</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Núm. Ejemplares</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Disponible</label>
+                                    </td>
+                                    <td>
+                                        <label for="">Disponible para:</label>
+                                    </td>
+                                    <td class="NoBorder" colspan="2">
+    
+                                        <label  for="">Acciones</label>
+                                    </td>
+                                    
+                                </tr>
+                                <tr >
+                                    <td> <!-- Título libro -->
+                                        Python a fondo
+                                    </td>
+                                    <td> <!-- Editorial libro -->
+                                        Librería Nacional
+                                    </td>
+                                    <td> <!-- ISBN libro -->
+                                        978-8426732873
+                                    </td>
+                                    <td> <!-- Autor libro -->
+                                        Óscar Ramírez Jímenez
+                                    </td>
+                                    <td> <!-- Número de páginas libro -->
+                                        766
+                                    </td> 
+                                    <td> <!-- Número de ejemplares libro -->
+                                        5
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro bool -->
+                                        si
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro place -->
+                                        Casa
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="#">Ver Contenido</a>
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="">Solicitar</a>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td> <!-- Título libro -->
+                                        Aprende Python en un fin de semana    
+                                    </td>
+                                    <td> <!-- Editorial libro -->
+                                        Círculo Rojo
+                                    </td>
+                                    <td> <!-- ISBN libro -->
+                                        978-1719884839
+                                    </td>
+                                    <td> <!-- Autor libro -->
+                                        Alfredo Moreno Muñoz
+                                        <br>
+                                        Sheila Córcoles Córcoles
+        
+                                    </td>
+                                    <td> <!-- Número de páginas libro -->
+                                        176
+                                    </td> 
+                                    <td> <!-- Número de ejemplares libro -->
+                                        5
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro bool -->
+                                        si
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro place -->
+                                        Sala
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="#">Ver Contenido</a>
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="">Solicitar</a>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td> <!-- Título libro -->
+                                        Python Paso a Paso
+                                    </td>
+                                    <td> <!-- Editorial libro -->
+                                        Panamericana
+                                    </td>
+                                    <td> <!-- ISBN libro -->
+                                        788-499646114 
+                                    </td>
+                                    <td> <!-- Autor libro -->
+                                        Ángel Pablo Hinojosa Gutiérrez
+                                    </td>
+                                    <td> <!-- Número de páginas libro -->
+                                        230 
+                                    </td> 
+                                    <td> <!-- Número de ejemplares libro -->
+                                        4
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro bool -->
+                                        si
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro place -->
+                                        Casa
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="#">Ver Contenido</a>
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="">Solicitar</a>
+                                    </td>
+                                </tr>
+                                <tr >
+                                    <td> <!-- Título libro -->
+                                        Fundamentos de Programación con Python 3  
+                                    </td>
+                                    <td> <!-- Editorial libro -->
+                                        Marcombo
+                                    </td>
+                                    <td> <!-- ISBN libro -->
+                                        978-8426733818
+                                    </td>
+                                    <td> <!-- Autor libro -->
+                                        Jorge Nolasco Valenzuela
+        
+                                        Javier Gamboa Cruzado
+        
+                                        Luz Nolasco Valenzuela
+        
+                                    </td>
+                                    <td> <!-- Número de páginas libro -->
+                                        192
+                                    </td> 
+                                    <td> <!-- Número de ejemplares libro -->
+                                        2
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro bool -->
+                                        no
+                                    </td> 
+                                    <td> <!-- Disponibilidad libro place -->
+                                        Casa
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="#">Ver Contenido</a>
+                                    </td>
+                                    <td class="NoBorder">
+                                        <a href="">Solicitar</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                        
+                    </div>
+                    
+                  
+                </div>
+                <nav style="display: flex; justify-content: center; gap: 15px;  margin: 50px;">
+                    <a href="">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                   </nav> 
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <h1 class="foot">
+            Todos los derechos Reservados @
+        </h1>
+    </footer>
+</body>
+</html>

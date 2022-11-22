@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/EntregarLibro.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+<body>
+    <header>
+        
+        SIIB - Sistema de Información interbibliotecario
+   
+    </header>
+    <div class="container">
+        <nav>
+            <a href="CrearLibro.html">Crear Libro</a> <a href="#">Entregar Libro</a> <a href="SolicitarLibro.html">Solicitar Libro</a>
+        </nav>
+        <div class="main">
+            <div class="MainUp">
+                <div class="EntregarLibro" >
+                    <h2 >
+                        Entregar Libro
+                    </h2>
+                    <div class="user">
+                        <form  action="">
+                            <table >
+                                <tr>
+                                    <td>
+                                        <img class="userPicture" src="../img/user.png" alt="">
+                                    </td>
+                                    <td>
+                                        <select class="UserNick" name="" id="">
+                                            <option value="">Cesar Rodriguez</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+            
+                                    </td>
+                                    <td>
+                                        <a href="../index.html">
+                                        <input class="logout" type="button" value="Salir">
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <form class="busqueda"  action=""> 
+                <label style="justify-content: center; display: flex; gap: 20px ;" for=""> Número de documento del usuario 
+                    <input style="width: 250px;" type="search" placeholder="1003567412">
+                </label>
+                <br><br>
+                <label style="justify-content: center; display: flex;" for=""> <u>Usuario Activo</u> </label>
+    
+            </form>
+            <form action="">
+            </form>
+            <br>
+        </div>
+        <div class="MainDown" style="font-size: 20px; ">
+            <div>
+                <fieldset>
+                    <legend>Listado de Libros</legend>
+                    <form action="" style="display: grid; ">
+                        <table>
+                            <tr>
+                                <td>
+                                    <strong>Titulo</strong> 
+                                </td>
+                                <td>
+                                    <strong> ISBN</strong>
+                                </td>
+                                <td>
+                                   <strong>Disponible para:</strong> 
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Python a fondo
+                                    
+                                </td>
+                                <td>
+                                    978-8426732873
+                                    
+                                </td>
+                                <td>
+                                    Casa
+                                </td>
+                                <td>
+                                    <a href="">Entregar</a>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Aprende Python en un fin de semana    
+                                    
+                                </td>
+                                <td>
+                                    978-1719884839
+            
+                                </td>
+                                <td>
+                                    Casa
+                                </td>
+                                <td>
+                                    <a href="">Entregar</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </fieldset>
+            </div>
+            <br></br>
+        </div>
+    </div>
+    
+     
+    <footer>
+        <h1 class="foot">
+            Todos los derechos Reservados @
+        </h1>
+    </footer>
+</body>
+</html>

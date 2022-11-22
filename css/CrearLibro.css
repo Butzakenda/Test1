@@ -1,0 +1,45 @@
+.main{
+    display: block;
+}
+.CrearLibro{
+    display: grid;
+    /* border: 2px solid black; */
+    grid-template-columns: 70% 30%;
+}
+.user{
+    margin-left: auto;
+
+}
+.userPicture{
+    max-width: 50px;
+    max-height: 50px;
+}
+.MainDown{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
+.MainUp{
+    font-size: 34px;
+}
+input{
+    padding: 15px;
+    width: 250px;
+    margin-top: 15px;
+}
+label{
+    font-size: 24px;
+}
+.UserNick{
+    width: 250px;
+    
+}
+.logout{
+    width: 150px;
+    padding: 15px;
+}
+.menu{
+    height: 45px;
+    
+}
+
